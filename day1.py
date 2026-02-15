@@ -1,5 +1,12 @@
-n=10
-if n > 5:
-    print("n is greater than 5")
+n=90
+if n >= 90:
+    print("grade A")
+elif n >= 80:
+    print("grade B")
+elif n >= 70:
+    print("grade C")
+elif n >= 60:
+    print("grade D")
 else:
-    print("n is not greater than 5")
+    print("grade F")
+    
