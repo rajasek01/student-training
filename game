@@ -1,0 +1,19 @@
+import random
+
+def guess_game(secret_number, attempts=0):
+    guess = int(input("Guess the number (1-10): "))
+    attempts += 1
+
+    if guess == secret_number:
+        print(f"🎉 Correct! You guessed it in {attempts} attempts.")
+    elif guess < secret_number:
+        print("Too low! Try again.")
+        guess_game(secret_number, attempts)  # recursive call
+    else:
+        print("Too high! Try again.")
+        guess_game(secret_number, attempts)  # recursive call
+
+
+# Main program
+secret = random.randint(1, 10)
+guess_game(secret)
