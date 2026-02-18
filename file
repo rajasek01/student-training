@@ -1,0 +1,19 @@
+file_path = "C:/training/day6/student-training/student-training/ok.txt"
+
+with open(file_path, "r") as file:   # 'r' for read mode
+    content = file.read()
+    print(content)
+file_path = "C:/training/day6/student-training/student-training/ok.txt"
+
+with open(file_path, "w") as file:   # 'w' mode
+    file.write("Hello, this is new content.\n")
+    file.write("Python can write to files easily.\n")
+
+print("Writing complete!")
+file_path = "C:/training/day6/student-training/student-training/ok.txt"
+# Open the file in append mode
+with open(file_path, "a") as file:   # 'a' = append
+    file.write("This line is added at the end.\n")
+    file.write("Python appends easily!\n")
+
+print("Appending complete!")
