@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects {
+    padding: 20px 0;
+}
+
+.skills {
+    background: #e2e2e2;
+    padding: 20px 0;
+}
+
+.contact {
+    padding: 20px 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
